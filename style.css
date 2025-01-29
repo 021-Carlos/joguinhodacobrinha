@@ -11,7 +11,7 @@
 /* Fundo com um gradiente atraente */
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #07d3ee, #0fb4d8);
+  background: linear-gradient(135deg, #26ff00, #055e39);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 
 /* Container principal com fundo semi-transparente */
 .game-container {
-  background: rgb(0, 144, 247);
+  background: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 15px;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 
 /* Estilo do título */
 .game-container h1 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
   font-size: 24px;
 }
@@ -37,7 +37,7 @@ body {
 /* Estilo do canvas com borda */
 canvas {
   background: rgb(0, 0, 0);
-  border: 4px solid #2a5298;
+  border: 4px solid #12573a;
   border-radius: 10px;
   display: block;
   margin: 0 auto 20px auto;
@@ -45,7 +45,7 @@ canvas {
 
 /* Estilo da pontuação */
 .score {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -55,7 +55,7 @@ canvas {
   padding: 10px 20px;
   font-size: 14px;
   background-color: #000000;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -63,5 +63,5 @@ canvas {
 }
 
 #restart-button:hover {
-  background-color: #ff00b7;
+  background-color: #ff0000;
 }
