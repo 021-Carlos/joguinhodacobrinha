@@ -1,0 +1,67 @@
+/* Importação da fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Estilo global para remover margens e preencher a tela */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo com um gradiente atraente */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #07d3ee, #0fb4d8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Container principal com fundo semi-transparente */
+.game-container {
+  background: rgb(0, 144, 247);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(9, 96, 29, 0.5);
+}
+
+/* Estilo do título */
+.game-container h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Estilo do canvas com borda */
+canvas {
+  background: rgb(0, 0, 0);
+  border: 4px solid #2a5298;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Estilo da pontuação */
+.score {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Estilo do botão de reinício */
+#restart-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#restart-button:hover {
+  background-color: #ff00b7;
+}
